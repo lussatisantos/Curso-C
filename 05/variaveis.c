@@ -18,6 +18,6 @@ int main() {
 	printf("Digite o nome:");
 	scanf("%s", &nome);
 	
-	printf("%s %d %f", nome, idade, altura);
+	printf("%s voce tem %d anos de idades, com uma altura a rondar a %.2f metros", nome, idade, altura);
 	
 }
