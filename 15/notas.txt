@@ -1,0 +1,9 @@
+FUNCOES da biblioteca: string.h
+1. STRCPY (<destino> , <origem>) => altera dados de uma string por uma outra string que tenha o conteudo, ou mesmo um texto
+novo na origem escrito entre colchetes;
+2. STRCAT (<destino> , <origem>) => cola os dados de uma string em outra string, formando uma frase
+3. STRLEN (<string>) => mostra o tamanho da string
+4. STRCMP (<string1> , <string2>) => compara se a string1 identica a string2, dando 0 se for igual e outro numero se nao
+
+Biblioteca: locale.h
+setlocale(LC_ALL, "Portuguese"); => Possibilitando utilizar acentos
