@@ -9,7 +9,7 @@ int main() {
 	printf("Resultado: %s\n\n", s);
 	
 	printf("Digite algo (scanf aprimorado): ");
-	scanf("%10[^\n]s", s);
+	scanf("%9[^\n]s", s);
 	fflush(stdin);
 	printf("Resultado: %s\n\n", s);
 }
