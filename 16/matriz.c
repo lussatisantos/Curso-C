@@ -3,6 +3,7 @@
 
 int main() {
 	int mat[3][3];
+	int i;
 	
 	mat[0][0] = 1;
 	mat[0][1] = 2;
